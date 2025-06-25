@@ -34,7 +34,7 @@ const Landing = () => {
       </div>
       <div className="hidden lg:block lg:h-screen lg:ml-auto">
   <img 
-    src="/img/img-1.png" 
+    src="/Img/img-1.png" 
     alt="" 
     className='h-full object-cover max-w-none'
     style={{ width: 'auto', maxHeight: '100vh' }}
