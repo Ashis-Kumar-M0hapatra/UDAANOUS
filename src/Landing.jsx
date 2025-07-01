@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Landing = () => {
   return (
     <div>
-      <div className='bg-gray-800 text-white px-4 min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center gap-16'>
+      <div className='bg-gray-800 bg-[url(/Img/banner-bg-shape.svg)] bg-blend-multiply bg-cover text-white px-4 min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center gap-16'>
       <div className="max-w-2xl flex flex-col justify-between h-full px-6 lg:px-0 mx-auto">
         <div className='flex items-center gap-2'>
           <FaHeart className='text-red-500 text-md' />
@@ -34,7 +34,7 @@ const Landing = () => {
       </div>
       <div className="hidden lg:block lg:h-screen lg:ml-auto">
   <img 
-    src="/Img/img-1.png" 
+    src="/Img/img.png" 
     alt="" 
     className='h-full object-cover max-w-none'
     style={{ width: 'auto', maxHeight: '100vh' }}
